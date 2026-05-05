@@ -15,5 +15,5 @@ int multiplicar(const int a, const int b) {
 }
 
 int esPar(int n) {
-    return (n % 2) == 0; /* version main */
+    return (n % 2) == 0; /* Equivalente a (n & 1) == 0 */
 }
